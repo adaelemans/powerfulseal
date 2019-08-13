@@ -1,0 +1,35 @@
+{{- $self := . -}}
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: seal-config
+data:
+  privatekey: |-
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEA8v2qqSw45FTDZAXUsVaRihPPTiqDIGaoi2kF8uktFPSNkGdE
+    N6AmXYedhwRTbhOpWAjt7Uk+w2JYHbfr2qttfD1SUf5SAqM+D7qagaD1Y+zH3PJR
+    7OSoE0V4oCtTOaIYHnEvdT1UFzmmNKDuekDcILH6mcPF0mkpGfHajH8g29Rtwui6
+    53TxPfBGFTmWUIKRjNXOwcttloiw/WHWQEhCw9u+DIQ0BhKzs2D9rbwW5ZNpib/A
+    5DOUpD4u4YV4Ca981d2naMQ6XEGMSPfFShxJXGum5fEezHADvmh/yBGvhnLO+fZY
+    vAZ2RC+Eej4Fh5Ey8UjjAO+mUNLccrXAm42DgwIDAQABAoIBAFLc+G7aesg6s6sP
+    ZfnXyKfqm35Pdwn8mCt6dCHjLJGB2CjPXm8NuSeaELkzW3QlVlGEMgcCPFoK1nvD
+    9bVLUnnUu5bkgHkPzCE3BGuCRUx/OaT6Kb/8Nejkfv835xi3UzxGYuW7NUr6SNiX
+    rNuZ9LddmlUHcxWO8Qo89MeGruDnxS4Rok38/ikx05B0PGDp3cXMWCe7uPrt7Kua
+    qzo9bpqcPOu89UAZpOASsVg1toqM+/WPOxjh0Q1dmK/VDABHf7TsoEzb1peXNGax
+    oKkanNwbuIInymshFUmxGuwjUfUAhbGj8GGYu0ngQltFSZ/2HmbISRbykSBCCHQL
+    VNNF+7ECgYEA+wr52q4iwboO8vkWPZpLU2adee/PkoZ688Hi6MqVAGL2kN0fgEFF
+    HNpHVmyMkLVyYr2SU6xi+UnavAjQN5vVhesj3YpJm0/JcRGXJj22Lddhw5l+H438
+    /tJOZlIbd71isJIBbxR+U47MYpbBzB3VN30/WY4sV1LLi7n5I3zxZZkCgYEA98n8
+    3oKR87Ji3jkzaGoV2yaNBw3Bbccia18U3vKg6SVyiELm6zhV/dQfVH7yzlCeraDa
+    kU9yYbMhtbPQzVFM+xfOs8GK/wuT+b86sN0NvDtMYvNf2YlA/fLvlY7FEJ5GO+lR
+    ej2Hdgi/dzVPVa4k+K6wS5FOEcH7QcLO0RIpK3sCgYARcrrY6x95TYA6fPuBvpab
+    rlcloXhQ283x4TjvKx1eEILIoMXOuTqffcBVjmfaqvHPURO5gxLB9tMgHJC0PL2D
+    eEte23ywMcRzemCCBOoDl6Ow35s3gDvkTiOq0uwbz2rrkMpOuSLqldM4yvefQzeN
+    isP7anlEfHmvNXbOc6GniQKBgQCYri9P8+h23s4o29ofVm7NMH3pgMJVIETHIDk9
+    /wbDYj2mVILxIS9rTg9YAzkdg3OizOCgdPGn3bbBvWDFgnkKpurIvFMnQD0XwIsr
+    e6oA+BDjT88ZvYb8c3rJDsXCraPdOrDnv43+XvmLPJ/7zWgei5U5mvkd3AczyBOj
+    o6sWjQKBgBdli3WEdl1uNExEenmL9fa88k6ny2eDAUtm1E3bckQM6QTh+ceQmfC1
+    PCAp2TBMxHQ5nIQbnW105I9r4ofZmTQ0Im/sQllNEKV08NRz+ZC75+df+1eI1NpJ
+    2mM8t43y9khDZLw3kACkws/75lve1KV8ecYmC0Qh8kyVkWi8fuHB
+    -----END RSA PRIVATE KEY-----
